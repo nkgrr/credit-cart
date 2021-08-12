@@ -1,24 +1,18 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import Cards from 'react-credit-cards';
 import './App.css';
+import 'react-credit-cards/es/styles-complied.css'
 
 function App() {
+  const [number, setNumber] = useState('');
+  const [name, setName] = useState('');
+  const [expiry, setExpiry] = useState('');
+  const [cvv, setCvv] = useState('');
+  const [focus, setFocus] = useState('');
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<div className="App">
+
+</div>
   );
 }
 
