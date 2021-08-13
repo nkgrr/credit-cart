@@ -56,7 +56,6 @@ function App() {
   onChange={e => setCvc(e.target.value)}
   onFocus={e => setFocus(e.target.name)}
   />
-
 </form>
 </div>
   );
